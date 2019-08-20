@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">project</string>
+    <string name="title_activity_sign_in">SignInActivity</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="title_activity_video_player">VideoPlayerActivity</string>
+    <string name="facebook_app_id">742923429388031</string>
+    <string name="name">name</string>
+    <string name="id">id</string>
+    <string name="email">email</string>
+    <string name="link">link</string>
+    <string name="fields">fields</string>
+    <string name="fields_name">id,name,link,email</string>
+    <string name="data">data</string>
+</resources>

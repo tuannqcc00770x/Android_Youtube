@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.SignInActivity"
+    android:orientation="vertical"
+    android:background="#A9F5F2">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="340dp"
+                android:background="#FFFFFF"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="160dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="260dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:paddingTop="80dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="User name"
+                        android:textColor="#FE2E2E"
+                        android:textSize="16sp"/>
+
+                    <android.support.v7.widget.AppCompatEditText
+                        android:id="@+id/edt_username"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:backgroundTint="#FE2E2E"
+                        android:textSize="18sp"/>
+
+                    <EditText
+                        android:id="@+id/edt_password"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPassword"
+                        android:hint="Password"/>
+
+                    <TextView
+                        android:id="@+id/sign_up_tv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Signup, please click here!"
+                        android:gravity="end" />
+
+                    <Button
+                        android:id="@+id/sign_in_btn"
+                        android:background="@drawable/button_shape"
+                        android:layout_marginTop="18dp"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:text="Sign In"
+                        android:textAllCaps="false"
+                        android:layout_gravity="center"/>
+
+                    <Button
+                        android:paddingTop="10dp"
+                        android:id="@+id/loginFb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Login with facebook"
+                        android:layout_gravity="center"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="100dp"
+                android:src="@drawable/logo" />
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+
+</RelativeLayout>
